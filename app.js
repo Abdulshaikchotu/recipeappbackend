@@ -10,7 +10,7 @@ const screte = "chotu";
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 
-const mongo_url = process.env.monogurl || "mongodb://0.0.0.0:27017/RecipeApp";
+const mongo_url = process.env.mongourl || "mongodb://0.0.0.0:27017/RecipeApp";
 
 const reglogroute = require("./routes/reglogroute");
 const reciperouter = require("./routes/reciperoute");
